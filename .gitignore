@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (pdm uses .venv if configured)
+.venv/
+.env
+
+# PDM files
+__pypackages__/
+pdm.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# VSCode settings (optional)
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Test cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

@@ -1,0 +1,15 @@
+[project]
+name = "Agent_template"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ArnajakAksorn",email = "arnajak.tun@aksorn.com"},
+]
+dependencies = ["langchain>=0.3.23", "langgraph>=0.3.27", "langchain-openai>=0.3.12", "langserve[all]>=0.3.1"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
