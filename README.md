@@ -1,4 +1,3 @@
-```markdown
 # 🛠️ AI Agent Server Template
 
 This project provides a scalable, production-ready framework to **serve AI agents via API** using [FastAPI](https://fastapi.tiangolo.com/), [LangServe](https://docs.langchain.dev/langserve/), and [LangChain](https://www.langchain.dev/).
@@ -12,7 +11,7 @@ It is designed to support **multi-agent systems**, clean modularization, and fut
 1. **Install dependencies**
 
 ```bash
-pdm install
+pdm install 
 ```
 
 2. **Run the server**
@@ -25,13 +24,8 @@ or
 pdm run langchain serve
 ```
 
+The API will be available at: http://localhost:8000
 
-> The API will be available at:
-> ```
-> http://localhost:8000
-> ```
-
----
 
 ## 🧩 Project Structure
 
