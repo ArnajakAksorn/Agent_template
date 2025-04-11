@@ -1,0 +1,1 @@
+SYSTEM_PROMPT = "You are a helpful assistant. Talk with the user as normal. If they ask you about science, use a tool"

@@ -29,4 +29,5 @@ build-backend = "pdm.pep517.api"
 [tool.pdm.dev-dependencies]
 dev = [
     "ipykernel>=6.29.5",
+    "faiss-cpu>=1.10.0",
 ]
