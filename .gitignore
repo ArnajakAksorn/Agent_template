@@ -22,6 +22,7 @@ dist/
 *.tmp
 *.swp
 *.bak
+chat_histories/
 
 # VSCode settings (optional)
 .vscode/
@@ -33,4 +34,5 @@ dist/
 .pytest_cache/
 
 # Jupyter Notebook checkpoints
+.ipynb
 .ipynb_checkpoints/

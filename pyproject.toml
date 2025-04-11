@@ -1,15 +1,31 @@
 [project]
 name = "Agent_template"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = ""
 authors = [
-    {name = "ArnajakAksorn",email = "arnajak.tun@aksorn.com"},
+    {name = "ArnajakAksorn", email = "arnajak.tun@aksorn.com"},
 ]
-dependencies = ["langchain>=0.3.23", "langgraph>=0.3.27", "langchain-openai>=0.3.12", "langserve[all]>=0.3.1"]
-requires-python = "==3.12.*"
+dependencies = [
+    "langserve[all]>=0.3.1",
+    "langchain-cli>=0.0.36",
+    "fastapi>=0.115.12",
+    "uvicorn>=0.34.0",
+    "langchain-openai>=0.3.12",
+    "python-dotenv>=1.1.0",
+    "pydantic>=2.11.3",
+    "langchain-community>=0.3.21",
+]
+requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
+[project.optional-dependencies]
 
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
 
 [tool.pdm]
-distribution = false
+[tool.pdm.dev-dependencies]
+dev = [
+    "ipykernel>=6.29.5",
+]

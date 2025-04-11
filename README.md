@@ -34,7 +34,7 @@ http://localhost:8100
 ├── app/
 │   ├── main.py             # FastAPI app entrypoint
 │
-├── modules/
+├── core/
 │   ├── main_agent.py        # Combine and orchestrate all agents
 │   ├── tools.py             # Shared tools and utilities
 │   ├── agent1/

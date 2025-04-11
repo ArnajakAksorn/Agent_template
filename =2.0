@@ -1,0 +1,10 @@
+Adding packages to default dependencies: pydantic
+🔒 Lock successful
+Changes are written to pdm.lock.
+Changes are written to pyproject.toml.
+All packages are synced to date, nothing to do.
+Installing the project as an editable package...
+  ✔ Update agent-template 0.1.0 -> 0.1.0 successful
+
+🎉 All complete!
+
